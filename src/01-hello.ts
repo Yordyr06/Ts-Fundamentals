@@ -1,4 +1,2 @@
-{
-  const name: string = "Yordy Almonte";
-  console.log(name)
-}
+const nombre: string = "Yordy Almonte";
+console.log(nombre)
