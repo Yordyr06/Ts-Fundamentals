@@ -6,7 +6,7 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
     "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "ts-build",
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -21,5 +21,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src", "ts-build/01-hello.js", "ts-build/main.js", "ts-build/demo.js", "ts-build/counter.js", "ts-build/04-number.js", "ts-build/03-typing.js", "ts-build/02-demo.js"]
 }
