@@ -1,7 +1,7 @@
 (() => {
   let userId: string | number;
   userId = 2313213;
-  userId = "asdasd";
+  userId = "Hello World";
 
   function greeting(myCharacter: string | number) {
     if (typeof myCharacter === "string") {
